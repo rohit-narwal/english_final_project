@@ -3,7 +3,7 @@
 body{
     text-align: center;
     margin: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Times New Roman';
 }
 /* front */
 .front{
@@ -147,7 +147,7 @@ p{
 
 /* resume */
 #resume{
-    height: 175vh;
+    height: 135vh;
     padding-top: 50px;
 }
 #resume hr{
@@ -199,7 +199,7 @@ p{
 
 /* cover letter */
 #cover_letter{
-    height: 110vh;  
+    height: 85vh;  
 }
 .main_content_cover_letter{
     margin-left: 200px;
