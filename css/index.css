@@ -199,6 +199,7 @@ p{
 
 /* cover letter */
 #cover_letter{
+    margin-top:250px;
     height: 85vh;  
 }
 .main_content_cover_letter{
@@ -226,10 +227,12 @@ p{
 /* activities */
 
 
-/* contact */
+/* reflection */
+#reflection_essay{
+    margin-top:150px;   
+}
 
-
-/* contact */
+/* reflection */
 
 
 /* utilities */
