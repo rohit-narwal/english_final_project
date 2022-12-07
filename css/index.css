@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/* front */
+.front{
+    background-color: white;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* navbar */
+#logo{
+    height: 100px;
+    border: solid black;
+    border-radius: 100%;
+}
+#logo:hover{
+    cursor: pointer;
+    
+}
+.navbar{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.navbar li{
+    list-style: none;
+    margin: 3vh 30px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+/* navbar */
+
+/* Home */
+#home{
+    margin-left: 200px;
+}
+.front_data{
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-between;
+}
+.intro{
+    margin: 40vh 200px 0 0;
+    padding-right: 200px;
+}
+.intro_hi{
+    text-align: end;
+    font-size: 1.5rem;
+    color: black; 
+}
+.intro h1{
+    font-size: 2rem;
+    color: black;
+    text-align: right;
+}
+#name{
+    margin-top: 0;
+    font-size: 2rem;
+}
+.scrollDown{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aquamarine;
+}
+.scrollDown:hover{
+    transition: ease-in-out 0.5s;
+    color: cyan;
+}
+/* Home */
+/* front */
+
+/* About */
+#about{
+    padding-top: 50px;
+}
+p{
+    color: black;
+}
+.section_heading{
+    padding: 0 200px;
+}
+.about_data{
+    margin: 0 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about_hr{
+    margin: 20px 200px;
+    width: 70%;
+}
+
+#about_me{
+    text-align: left;
+    color: black;
+}
+#about_photo{
+    height: 150px;
+    border: solid black;
+    border-radius: 100%;
+}
+.about_mid{
+    margin: 0 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left{
+    text-align: left;
+    margin-right: 10px;
+}
+.about_end{
+    margin: 20px;
+}
+.about_end button{
+    padding: 10px 75px;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 5px;
+    color: white;
+    margin: 0 50px;
+}
+.about_end button:hover{
+    cursor: pointer;
+    
+}
+/* About */
+
+/* resume */
+#resume{
+    height: 175vh;
+    padding-top: 50px;
+}
+#resume hr{
+    text-align: left;
+    margin: 0;
+    width: 72.5vw;
+}
+#resume a{
+    color: brown;
+}
+.date_section{
+    display: flex;
+    position:relative;
+}
+.date_section p{
+    margin: 0;
+}
+.date_section{
+    display: flex;
+    position:relative;
+}
+.date{
+    position:absolute;
+    right: 0;
+}
+#resume ul li{
+    font-size: 1.2rem;
+}
+#resume ul{
+    margin: 0;
+}
+/* resume header section */
+
+/* #section_heading{
+    padding-top: 50px;
+} */
+/* resume main section */
+/* right section */
+#resume .resume_main{
+    margin: 0 200px;
+    text-align: left;
+}
+.education p{
+    margin: 0;
+}
+
+
+/* resume */
+
+/* cover letter */
+#cover_letter{
+    height: 110vh;  
+}
+.main_content_cover_letter{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+}
+.main_content_cover_letter ul li{
+    font-size: 1.2rem;
+}
+/* cover letter */
+
+/* projects */
+#projects{
+    margin: 0 150px 0 200px;
+    text-align: center;
+}
+
+/* projects */
+
+
+/* activities */
+
+
+/* activities */
+
+
+/* contact */
+
+
+/* contact */
+
+
+/* utilities */
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1.2rem;
+    display: block;
+}
+.icons{
+    height: 40px;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+  
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    top: 5px;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding: 0 5px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+  
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+/* utilities */
